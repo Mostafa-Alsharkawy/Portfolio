@@ -1,4 +1,4 @@
-<script>
+{/* <script>
 particlesJS("particles-js", {
   "particles": {
     "number": { "value": 80 },
@@ -13,4 +13,4 @@ particlesJS("particles-js", {
     }
   }
 });
-</script>
+</script> */}
