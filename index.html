@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Al Sharkawy - Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet" />
+  
+  <!-- AOS CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="nav container">
+      <h1 class="logo">Mostafa <span>AlSharkawy</span></h1>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link active">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero" data-aos="fade-up" data-aos-duration="1200">
+    <div class="hero-content container">
+      <div class="hero-text">
+        <h2>Hello, I'm <span>Mostafa AlSharkawy</span></h2>
+        <p>Front-End Developer & Designer | Crafting interactive, responsive websites</p>
+        <a href="#projects" class="btn">See My Work</a>
+      </div>
+      <div class="hero-image" data-aos="zoom-in" data-aos-duration="1200">
+        <img src="img/portfulo.jpeg" alt="Mostafa AlSharkawy" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about container" data-aos="fade-right" data-aos-duration="1200">
+    <h2>About Me</h2>
+    <p>
+      I'm Mohamed ElGamal, a passionate Front-End Developer specialized in building responsive and modern web applications using HTML, CSS, JavaScript, and React.
+    </p>
+  </section>
+
+  <section id="projects" class="projects container" data-aos="fade-left" data-aos-duration="1200">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card" data-aos="flip-left" data-aos-duration="1000">
+        <img src="https://via.placeholder.com/350x200" alt="Project 1" />
+        <h3>Landing Page</h3>
+        <p>Responsive landing page with smooth animations.</p>
+        <a href="https://github.com/username/landing-page" target="_blank" class="btn">View Code</a>
+      </div>
+      <div class="project-card" data-aos="flip-left" data-aos-duration="1200" data-aos-delay="200">
+        <img src="https://via.placeholder.com/350x200" alt="Project 2" />
+        <h3>Restaurant Website</h3>
+        <p>Modern restaurant site with menu and reservation UI.</p>
+        <a href="https://github.com/username/restaurant-website" target="_blank" class="btn">View Code</a>
+      </div>
+      <div class="project-card" data-aos="flip-left" data-aos-duration="1400" data-aos-delay="400">
+        <img src="https://via.placeholder.com/350x200" alt="Project 3" />
+        <h3>E-commerce Frontend</h3>
+        <p>Interactive product grid and shopping cart UI.</p>
+        <a href="https://github.com/username/ecommerce-frontend" target="_blank" class="btn">View Code</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills container" data-aos="fade-up" data-aos-duration="1200">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Responsive Design</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact container" data-aos="fade-up" data-aos-duration="1200">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>Phone: +20 123 456 7890</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    <p>GitHub: <a href="https://github.com/username" target="_blank">github.com/username</a></p>
+  </section>
+
+  <footer class="footer" data-aos="fade-up" data-aos-duration="1200">
+    <p>© 2026 Mostafa AlSharkawy. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- JS -->
+  <script src="script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
