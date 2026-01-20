@@ -280,32 +280,53 @@ section h2 {
 }
 
 /* Responsive Design */
+/* تحت media query لشاشات أقل من 900px */
+/* لشاشات أقل من 900px (تابليت وموبايل كبير) */
 @media (max-width: 900px) {
   .hero-content {
     flex-direction: column;
     text-align: center;
   }
   .hero-image img {
-    width: 260px;
+    width: 220px; /* أكبر شوية لتناسب الشاشات المتوسطة */
+    margin: 0 auto;
   }
   .nav-links {
-    gap: 20px;
+    gap: 15px;
+    flex-wrap: wrap; /* يخلي اللينكات تنزل لو المساحة ضيقة */
+    justify-content: center; /* يوسّط اللينكات */
   }
   .projects-grid {
     grid-template-columns: 1fr;
+    padding: 0 15px;
   }
 }
 
+/* لشاشات أقل من 480px (الموبايلات الصغيرة) */
 @media (max-width: 480px) {
   .btn {
-    padding: 14px 30px;
-    font-size: 1.1rem;
+    padding: 12px 25px;
+    font-size: 1rem;
   }
   section h2 {
-    font-size: 2.3rem;
+    font-size: 2rem;
+    padding-left: 10px;
+    border-left-width: 8px;
   }
   .skills-list li {
-    padding: 14px 30px;
-    font-size: 1.1rem;
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+  .hero-text h2 {
+    font-size: 1.8rem;
+  }
+  .hero-text p {
+    font-size: 0.95rem;
+  }
+  .hero-image img {
+    width: 150px; /* تصغير الصورة أكتر للموبايلات الصغيرة */
+  }
+  .nav-links {
+    gap: 10px;
   }
 }
