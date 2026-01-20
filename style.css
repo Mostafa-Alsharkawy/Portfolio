@@ -329,4 +329,12 @@ section h2 {
   .nav-links {
     gap: 10px;
   }
+  .logo{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    font-size: 1.7rem;
+    gap: 3px;
+    
+  }
 }
